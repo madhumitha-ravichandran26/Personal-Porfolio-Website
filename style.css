@@ -111,7 +111,7 @@ section{
     font-size: xx-large;
   }
   
-#services h2, #projects h2{
+#education h2, #projects h2{
   color: #1f0c46;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 400;
@@ -120,13 +120,18 @@ section{
 }
 
 #ser{
-  border: none;
+  border: #2e0089 2px solid;
 }
 
-#exp{
-  border: #1f0c46 2px solid;
-  max-height: 200px;
-  border-radius: 0%;
+#edu{
+  border: #2e0089 2px solid;
+  height: 150px;
+}
+
+
+#edu:hover, #ser:hover,#exp:hover{
+  background-color: #2e0089;
+  color: #ffffff;
 }
 
 h3{
@@ -145,7 +150,7 @@ h3{
   margin-top: 75px;
 }
 
-#services, #projects{
+#education, #projects{
   background-color: #ffffff;
   color: #1f0c46;
 }
@@ -364,7 +369,7 @@ border-radius: 5%;
     justify-content: space-around;
 }
 
-#projects a,#services a{
+#projects a,#education a{
   text-decoration: none;
   text-align: center;
   color: #1f0c46;
@@ -372,7 +377,7 @@ border-radius: 5%;
   font-weight: 400;
 }
 
-#projects a:hover,#services a:hover{
+#projects a:hover,#education a:hover{
   text-decoration: underline;
 }
 
