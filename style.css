@@ -119,8 +119,9 @@ section{
   font-size: xx-large;
 }
 
-#ser{
+#ser,#exp{
   border: #2e0089 2px solid;
+  border-radius: 0%;
 }
 
 #edu{
